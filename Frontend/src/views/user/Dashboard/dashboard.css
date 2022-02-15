@@ -1,0 +1,18 @@
+.catagory {
+  width: 25%;
+  background: lightpink;
+  padding: 50px;
+  margin-left: 20px;
+  margin-top: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+.itemflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.catagory:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}

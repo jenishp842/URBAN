@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(240, 235, 235);
+}
+form {
+  background-color: white;
+  padding: 20px 40px;
+  margin: 10px 0;
+  width: 600px;
+  height: 500px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  margin: auto;
+}
+h2 {
+  font-family: Arial;
+  text-align: center;
+}
+div {
+  padding-bottom: 30px;
+}
+.maindiv {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+div > input {
+  width: 100%;
+  padding: 15px 15px;
+  margin: 5px 0;
+  border: 1px solid rgb(194, 189, 189);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div > select {
+  width: 100%;
+  padding: 15px 15px;
+  margin: 5px 0;
+  border: 1px solid rgb(194, 189, 189);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div > label {
+  font-family: Arial;
+  font-size: 85%;
+  font-weight: bold;
+  color: rgb(85, 78, 78);
+}
+div > label::after {
+  content: '*';
+  color: red;
+}
+label[for='checkbox'] {
+  text-decoration: underline;
+  font-family: Arial;
+  font-size: 85%;
+}
+
+button {
+  width: 100%;
+  font-weight: bold;
+  background-color: #61d116;
+  color: white;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: green;
+}
+label[for='checkbox']:hover {
+  color: blue;
+}

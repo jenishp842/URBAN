@@ -1,0 +1,12 @@
+.sideheader {
+  text-align: center;
+  height: 80px;
+  align-items: center;
+  padding-top: 10px;
+}
+.header {
+  /* display: table-column; */
+  width: 100%;
+  background-color: #1d1d1d;
+  height: 80px;
+}
