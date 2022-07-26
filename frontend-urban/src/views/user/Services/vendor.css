@@ -1,0 +1,14 @@
+.vendor-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.vendor-component {
+  max-height: 640px;
+  overflow-y: auto;
+}
+
+form > div > span {
+  color: red;
+}

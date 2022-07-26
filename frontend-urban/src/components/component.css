@@ -1,0 +1,48 @@
+.addressform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addressform > div {
+  width: 400px;
+}
+.addressform > div > input,
+select {
+  width: 400px;
+  padding: 10px;
+}
+
+.addressform div {
+  margin-bottom: 20px;
+}
+
+.timeslot {
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid;
+  margin: 15px;
+  height: 90px;
+  text-align: center;
+  padding-top: 28px;
+  cursor: pointer;
+}
+
+.timeslotcontainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.booked {
+  background-color: lightgray;
+  cursor: no-drop;
+  pointer-events: none;
+}
+.setbuttons {
+  text-align: center;
+}
+
+.setbuttons button {
+  margin: 20px;
+}
